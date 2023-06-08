@@ -7,12 +7,9 @@ function NavigationBarView() {
     const [nav, setNav] = useState(false);
 
     const openNav = () => {
-        document.getElementById("mySidenav").style.width = "100%";
+        setNav(!nav);
     };
 
-    const closeNav = () => {
-        document.getElementById("mySidenav").style.width = "0";
-    };
 
     return (
         <>
@@ -31,19 +28,20 @@ function NavigationBarView() {
                         <li><a href="/More">More</a></li>
                     </ul>
                     <a href="/loginIn" className="action_btn shadow">Login</a>
-                    <div class="toggle_btn">
+                    <div class="mobile-hamb">
                         <i class="fa-solid fa-bars" onClick={openNav}></i>
                     </div>
                 </div>
-                <div id="mySidenav" className="sidenav">
-                    <ul class="links">
-                        <li><a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a><a href="#">About</a></li>
+                <div className={`sidenav ${nav ? "open-nav" : ""}`}>
+                    <div onClick={openNav} className="sidenav__close">
+                        <i className="fa-solid fa-xmark"></i>
+                    </div>
+                    <ul class=".sidenav__link center">
                         <li><a href="/hero">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/event">Event</a></li>
                         <li><a href="/contectUs">Contect Us</a></li>
                         <li><a href="/More">More</a></li>
-                        <li><a href="/loginIn" className="action_btn">Login</a></li>
                     </ul>
                 </div>
 

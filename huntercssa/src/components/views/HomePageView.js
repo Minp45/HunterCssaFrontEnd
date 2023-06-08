@@ -4,7 +4,7 @@ import '../style/HomePageStyle.css';
 const HomePageView = () => {
   return (
     <>
-      <div>
+      <div class = "container">
         <img class="bg-shape" src={purpleBg} alt="bg-shape" />
       </div>
       <div class="home-content hero-content__text">
