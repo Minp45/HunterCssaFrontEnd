@@ -1,8 +1,12 @@
-import HomePageView from '../views/HomePageView';
+import HomePage from '../views/HomePageView';
+import Footer from '../views/FooterView';
 
 const HomePageContainer = () => {
   return (
-    <HomePageView />
+    <>
+      <HomePage />
+      <Footer />
+    </>
   );
 };
 
