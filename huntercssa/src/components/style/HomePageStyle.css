@@ -1,0 +1,80 @@
+@import "../global/wordStyle.css";
+
+.bg-shape {
+    margin: 35px auto;
+    margin-right: 50;
+    width: 50rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+
+    @media (max-width: 800px) {
+        display: none;
+    }
+}
+
+.home-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-left: 17rem;
+    position: relative;
+
+    @media (max-width: 800px) {
+        justify-content: center;
+        margin-left: 0rem;
+    }
+}
+
+.hero-content__text {
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    max-width: 70rem;
+    margin-top: 15rem;
+
+    @media (max-width: 1000px) {
+        text-align: center;
+        align-items: center;
+      }
+    
+}
+h4 {
+    font-size: 2.2rem;
+    font-family: serif;;
+    color: #010103;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    font-family: serif;
+    font-weight: 700;
+    color: #010103;
+    line-height: 1.2;
+    margin-top: 1rem;
+  }
+
+  h1 span {
+    color: darkorchid;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  h2 {
+    font-size: 3.2rem;
+    font-family: "KaiTi";
+    font-weight: 700;
+    color: #010103;
+    font-weight: bolder;
+    margin-bottom: 2.3rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    font-family: "KaiTi";
+    font-weight: bolder;
+    line-height: 0;
+    color: #706f7b;
+    margin-bottom: 4rem;
+  }
