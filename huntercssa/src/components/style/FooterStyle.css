@@ -9,9 +9,9 @@ footer {
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+
     color: #010103;
-    gap: 50rem;
+    gap: 10%;
     justify-content: center;
     text-align: left;
 
@@ -53,23 +53,7 @@ footer {
     margin-bottom: 1rem;
 }
 
-.footer-2{
-    @media (max-width: 650px) {
-        text-align: center;
-      }
-}
 
-.footer-3{
-    @media (max-width: 650px) {
-        text-align: center;
-      }
-}
-
-.footer-4{
-    @media (max-width: 650px) {
-        text-align: center;
-      }
-}
 
 
 

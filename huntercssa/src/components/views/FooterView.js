@@ -19,8 +19,12 @@ const FooterView = () => {
                         <ul>
                             <li class="footer-1-child-1">Subscription</li>
                             <l1 class="footer-1-child-2">Subscribe your email address for latest news and updates</l1>
-                            <l1>Enter email address</l1>
-                            <l1>Enter</l1>
+                            <li>
+                                <input type="email" placeholder="Enter Email Address"></input>
+                            </li>
+                            <li>
+                                <button className="submit-email">Submit</button>
+                            </li>
                         </ul>
 
 
