@@ -69,7 +69,7 @@ header {
 
 .navbar .links {
     display: flex;
-    gap: 4.5rem;
+    gap: 2.5rem;
 }
 
 .navbar .toggle_btn {
@@ -172,13 +172,13 @@ header {
       color: purple;
     }
   
-    @media (max-width: 1000px) {
+    @media (max-width: 999px) {
       display: flex;
     }
   }
 
     /* RESPONSIVE DESIGN */
-@media(max-width: 992px) {
+@media(max-width: 1000px) {
 
     .navbar .links,
     .navbar .action_btn {
