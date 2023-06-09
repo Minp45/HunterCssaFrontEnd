@@ -11,7 +11,7 @@ const HomePageView = () => {
         <h4> The Hunter College of New York </h4>
         <h1> <span>Chinese Students</span> & Scholars Association </h1>
         <h2>纽约市立学院中国学生会</h2>
-        <ul class = "slogen-home">
+        <ul class = "slogan-home">
           <li><p>弘扬中国传统文化</p></li>
           <li><p class = "second-line-style">融入全新校园生活</p></li>
         </ul>
