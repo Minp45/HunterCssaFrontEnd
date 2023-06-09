@@ -1,0 +1,122 @@
+@import "../global/wordStyle.css";
+
+.container {
+  max-width: 133rem;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}
+
+.bg-shape {
+    margin: 30px auto;
+    margin-right: 50;
+    width: 50rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -2;
+
+
+    @media (max-width: 800px) {
+        display: none;
+    }
+}
+
+.home-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-left: 14%;
+    position: relative;
+    z-index: -1;
+
+    @media (max-width: 1000px) {
+        justify-content: center;
+        margin-left: 0;
+    }
+}
+
+.hero-content__text {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    max-width: 70rem;
+    margin-top: 15rem;
+
+    @media (max-width: 1000px) {
+        text-align: center;
+        align-items: center;
+        margin-top: -10rem;
+      }
+    
+}
+h4 {
+    font-size: 2.2rem;
+    font-family: serif;;
+    color: #010103;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    font-family: serif;
+    font-weight: 700;
+    color: #010103;
+    line-height: 1.2;
+    margin-top: 1rem;
+  }
+
+  h1 span {
+    color: darkorchid;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  h2 {
+    font-size: 3.2rem;
+    font-family: "KaiTi";
+    font-weight: 700;
+    color: #010103;
+    font-weight: bolder;
+    margin-bottom: 2.3rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    font-family: "KaiTi";
+    font-weight: bolder;
+    line-height: 0;
+    color: #706f7b;
+    margin-bottom: 4rem;
+    white-space: nowrap; /* Text will not wrap by default */
+  }
+
+  @media (max-width: 768px) {
+    p {
+      white-space: normal; /* Text will wrap on smaller screens */
+    }
+  }
+  
+  .slogan-home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 40%;
+
+    @media (max-width: 1000px) {
+        padding: 0%;
+        grid-template-columns: 1fr;
+        width:100%
+    }
+  }
+
+  .slogan-home li{
+    padding-left: 2rem;
+    @media (max-width: 1000px){
+      padding: 0%;
+    }
+  }
+
+  .second-line-style{
+    margin-top: 0%;
+    @media (max-width: 1000px) {
+      margin-top: -1rem;   
+    }
+  }
+  
