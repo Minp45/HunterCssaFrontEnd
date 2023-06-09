@@ -13,7 +13,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 1;
+    z-index: -9999;
 
 
     @media (max-width: 800px) {
@@ -42,6 +42,7 @@
     margin-top: 15rem;
 
     @media (max-width: 1000px) {
+        margin-top: -10rem;
         text-align: center;
         align-items: center;
       }
@@ -83,4 +84,9 @@ h4 {
     line-height: 0;
     color: #706f7b;
     margin-bottom: 4rem;
+    @media (max-width: 1000px) {
+      line-height: 3rem;
+      text-align: center;
+      align-items: center;
+    }
   }
