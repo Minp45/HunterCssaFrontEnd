@@ -51,7 +51,7 @@ header {
 }
 
 .__img {
-    width: 16.5rem;
+    width: 16rem;
 }
 
 .__img img {
@@ -61,13 +61,13 @@ header {
 
 
 .navbar .logo a {
-    font-size: 1.5rem;
+    font-size: 5rem;
     font-weight: bold;
 }
 
 .navbar .links {
     display: flex;
-    gap: 2rem;
+    gap: 4.5rem;
 }
 
 .navbar .toggle_btn {
