@@ -13,7 +13,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 1;
+    z-index: -1;
 
 
     @media (max-width: 800px) {
@@ -44,6 +44,7 @@
     @media (max-width: 1000px) {
         text-align: center;
         align-items: center;
+        margin-top: -10rem;
       }
     
 }
@@ -83,4 +84,36 @@ h4 {
     line-height: 0;
     color: #706f7b;
     margin-bottom: 4rem;
+    white-space: nowrap; /* Text will not wrap by default */
   }
+
+  @media (max-width: 768px) {
+    p {
+      white-space: normal; /* Text will wrap on smaller screens */
+    }
+  }
+  
+  .slogen-home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 40%;
+
+    @media (max-width: 1000px) {
+        padding: 0%;
+        grid-template-columns: 1fr;
+        width:100%
+    }
+  }
+
+  li{
+    padding-left: 2rem;
+
+    
+  }
+  .second-line-style{
+    margin-top: 0%;
+    @media (max-width: 1000px) {
+      margin-top: -1rem;   
+    }
+  }
+  
