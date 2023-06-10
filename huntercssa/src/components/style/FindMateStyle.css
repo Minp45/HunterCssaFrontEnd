@@ -49,6 +49,7 @@
   grid-template-rows: auto auto auto;
   gap: 2rem;
 
+  
   @media (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
   }
@@ -72,7 +73,7 @@
 }
 
 .find-form__text select {
-  font-size: ;
+  font-size:medium;
   color: #ababab;
   font-family: text-font;
   border: 1px solid #ccd7e6;
@@ -80,6 +81,8 @@
   font-weight: 400;
   padding: 1.2rem 1.3rem;
   outline: none;
+  width: 100%; /* Ensure the select element takes up 100% width */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
 }
 
 
