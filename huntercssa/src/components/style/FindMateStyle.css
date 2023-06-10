@@ -12,7 +12,6 @@
 }
 
 .find-content .find-content__box {
-  background-color: blueviolet;
   width: 100%;
   padding: 4rem 4.5rem 5rem 5.5rem;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
@@ -73,26 +72,25 @@
 }
 
 .find-form__text select {
-  font-size:medium;
+  font-size: 1rem;
   color: #ababab;
-  font-family: text-font;
+  font-family: "Courier New", Courier, monospace;
   border: 1px solid #ccd7e6;
   border-radius: 3px;
   font-weight: 400;
-  padding: 1.2rem 1.3rem ;
+  padding: 1.2rem 1.3rem;
   outline: none;
   width: 100%; /* Ensure the select element takes up 100% width */
   box-sizing: border-box; /* Include padding and border in the width calculation */
 }
-
 
 .find-form button[type="submit"] {
   padding: 0.8rem 1.3rem;
   height: fit-content;
   align-self: self-end;
   border: none;
-  font-family: "Gill Sans", sans-serif;
   font-size: 1.8rem;
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
   color: rgb(147, 108, 146);
   background-color: --text-orange;
