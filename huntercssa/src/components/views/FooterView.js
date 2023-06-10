@@ -1,5 +1,4 @@
-import wechat from "../../images/wechat-logo.png";
-import ins from "../../images/ins-logo.png";
+
 import '../style/FooterStyle.css';
 
 const FooterView = () => {
