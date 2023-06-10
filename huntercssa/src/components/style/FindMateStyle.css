@@ -38,7 +38,7 @@
 
 @media (max-width: 400px) {
   .find-content .find-content__box {
-    padding: 4rem 2.5rem 5rem 2.5rem;
+    padding: 4rem 2.5rem 4rem 2.5rem;
   }
 }
 
@@ -79,7 +79,7 @@
   border: 1px solid #ccd7e6;
   border-radius: 3px;
   font-weight: 400;
-  padding: 1.2rem 1.3rem;
+  padding: 1.2rem 1.3rem ;
   outline: none;
   width: 100%; /* Ensure the select element takes up 100% width */
   box-sizing: border-box; /* Include padding and border in the width calculation */
@@ -94,7 +94,7 @@
   font-family: "Gill Sans", sans-serif;
   font-size: 1.8rem;
   font-weight: 500;
-  color: rgb(122, 122, 122);
+  color: rgb(147, 108, 146);
   background-color: --text-orange;
   box-shadow: 0 10px 15px rgba(182, 154, 202, 0.55);
   cursor: pointer;
