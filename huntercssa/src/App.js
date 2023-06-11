@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import {
   HomePageContainer,
   NavigationBarContainer,
+  AboutPageContainer,
 } from './components/containers';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <NavigationBarContainer />
       <Routes>
         <Route index path="/" element={<HomePageContainer />} />
+        <Route index path="/about" element={<AboutPageContainer />} />
       </Routes>
     </>
   );

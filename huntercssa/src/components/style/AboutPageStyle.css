@@ -1,0 +1,29 @@
+.section-title{
+    text-align: center ;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.grid-view{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5%; 
+    align-items: center;
+    margin-left: 10%;
+    margin-right:10%;
+
+}
+
+.grid-view img {
+    width: 65%; /* Adjust the width as desired */
+    height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
+    object-fit: cover; /* Adjust the object-fit property as desired (e.g., contain, fill) */
+}
+.grid-item {
+    position: relative;
+  }
+
+  .image-comment {
+   margin-top: 1rem;
+   text-align: center;
+  }
