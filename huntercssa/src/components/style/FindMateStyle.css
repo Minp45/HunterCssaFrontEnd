@@ -2,8 +2,8 @@
 
 .finding {
   position: relative;
-  margin: 6rem;
-  background: linear-gradient(to bottom, #CCCCCC 20%, #FFFFFF 80%);
+  margin: 8rem;
+  background:none;
 }
 
 .find-content {
@@ -13,20 +13,21 @@
 
 .find-content .find-content__box {
   width: 100%;
-  padding: 4rem 4.5rem 5rem 5.5rem;
+  padding: 4rem 4rem 3rem 4.5rem;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
   height: auto;
   position: relative;
   z-index: 4;
   color: white;
   border-radius: 5px;
-  background-image: url("../../images/purlpeBox.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-image: url("../../images/purpleBox.png");
+  background-position:center center;
+  background-repeat:no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   color: black;
+  overflow: hidden; 
 }
 
 .find-content .find-content__box h2 {
@@ -46,13 +47,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
-  gap: 2rem;
+  gap: 2.5rem;
 
   @media (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
   }
 
-  @media (max-width: 630px) {
+  @media (max-width: 900px) {
     grid-template-columns: 1fr;
   }
 
