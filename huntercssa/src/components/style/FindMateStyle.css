@@ -72,9 +72,8 @@
 }
 
 .find-form__text select {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #ababab;
-  font-family: "Courier New", Courier, monospace;
   border: 1px solid #ccd7e6;
   border-radius: 4px;
   font-weight: 400;

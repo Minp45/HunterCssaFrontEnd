@@ -24,8 +24,8 @@ function NavigationBarView() {
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/event">Event</a></li>
-                        <li><a href="/contectUs">Contact</a></li>
-                        <li><a href="/More">More</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/more">More</a></li>
                     </ul>
                     <a href="/loginIn" className="action_btn shadow">Login</a>
                     <div class="mobile-hamb">
@@ -40,8 +40,8 @@ function NavigationBarView() {
                         <li><a href="/hero">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/event">Event</a></li>
-                        <li><a href="/contectUs">Contect Us</a></li>
-                        <li><a href="/More">More</a></li>
+                        <li><a href="/contact">Contect Us</a></li>
+                        <li><a href="/more">More</a></li>
                     </ul>
                 </div>
 

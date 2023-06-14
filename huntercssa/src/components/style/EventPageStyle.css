@@ -1,0 +1,7 @@
+@import "../global/wordStyle.css";
+
+.container {
+  max-width: 133rem;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}

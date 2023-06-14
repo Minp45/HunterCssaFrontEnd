@@ -8,6 +8,7 @@ import {
   HomePageContainer,
   NavigationBarContainer,
   AboutPageContainer,
+  EventPageContainer,
 } from './components/containers';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       <Routes>
         <Route index path="/" element={<HomePageContainer />} />
         <Route index path="/about" element={<AboutPageContainer />} />
+        <Route index path="/event" element={<EventPageContainer />} />
+
       </Routes>
     </>
   );
