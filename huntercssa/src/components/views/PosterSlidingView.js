@@ -8,7 +8,7 @@ import '../style/PosterSlidingStyle.css';
 const PosterSliding = () => {
   return (
     <>
-      <h1 class = "poster-title">Check out our past event</h1>
+      <h1 class = "poster-title">Retrospect</h1>
       <div class = "poster-slide scroll-container">
         <img src={alise} alt="alise" />
         <img src={findcp} alt="findcp" />

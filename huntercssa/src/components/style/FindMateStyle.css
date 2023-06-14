@@ -8,7 +8,6 @@
 
 .find-content {
   margin: 0 auto;
-  margin-bottom: 10rem;
 }
 
 .find-content .find-content__box {
@@ -69,6 +68,7 @@
     font-size: --p-size;
     font-weight: 600;
     margin-bottom: 1.2rem;
+    border-radius: 4px;
 }
 
 .find-form__text select {
@@ -76,7 +76,7 @@
   color: #ababab;
   font-family: "Courier New", Courier, monospace;
   border: 1px solid #ccd7e6;
-  border-radius: 3px;
+  border-radius: 4px;
   font-weight: 400;
   padding: 1.2rem 1.3rem;
   outline: none;
@@ -86,18 +86,19 @@
 
 
 .find-form button[type="submit"] {
-  padding: 0.8rem 1.3rem;
+  padding: 1rem 1.3rem;
   height: fit-content;
   align-self: self-end;
   border: none;
   font-size: 1.8rem;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
-  color: rgb(122, 122, 122);
+  color: rgb(116, 6, 121);
   background-color: --text-orange;
   box-shadow: 0 10px 15px rgba(182, 154, 202, 0.55);
   cursor: pointer;
   transition: all 0.3s;
+  border-radius: 4px;
 }
 
 .find-form button[type="submit"]:hover {

@@ -24,7 +24,7 @@ function NavigationBarView() {
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/event">Event</a></li>
-                        <li><a href="/contectUs">Contect Us</a></li>
+                        <li><a href="/contectUs">Contact</a></li>
                         <li><a href="/More">More</a></li>
                     </ul>
                     <a href="/loginIn" className="action_btn shadow">Login</a>
