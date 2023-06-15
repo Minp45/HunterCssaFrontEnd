@@ -1,13 +1,17 @@
+.container{
+    text-align: center;
+}
+
 .section-title{
     text-align: center ;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 
 .grid-view{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 5%; 
+    grid-gap: 1rem; 
     align-items: center;
     margin-left: 10%;
     margin-right:10%;
@@ -15,15 +19,26 @@
 }
 
 .grid-view img {
-    width: 65%; /* Adjust the width as desired */
+    width: 80%; /* Adjust the width as desired */
     height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
     object-fit: cover; /* Adjust the object-fit property as desired (e.g., contain, fill) */
+    border-radius: 4px;
 }
 .grid-item {
     position: relative;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
   }
 
-  .image-comment {
-   margin-top: 1rem;
-   text-align: center;
-  }
+.grid-item:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.image-comment {
+margin-top: 1rem;
+text-align: center;
+}

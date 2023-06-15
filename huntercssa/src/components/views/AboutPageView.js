@@ -9,23 +9,23 @@ const AboutPageView = () => {
   return (
     <>
       <div class="container">
-        <h1> 我们的团队</h1>
+        {/* <h1> Our Team</h1> */}
         <h2 class="section-title">主席团</h2>
         <div class="grid-view">
           <div class="grid-item">
-            <img src={main1}></img>
+            <img src={main1} alt="a"></img>
             <p class="image-comment">Comment 1</p>
           </div>
           <div class="grid-item">
-            <img src={main2}></img>
+            <img src={main2} alt="b"></img>
             <p class="image-comment">Comment 2</p>
           </div>
           <div class="grid-item">
-            <img src={main3}></img>
-            <p class="image-comment">Comment 1</p>
+            <img src={main3} alt="c"></img>
+            <p class="image-comment">Comment 3</p>
           </div>
           <div class="grid-item">
-            <img src={main4}></img>
+            <img src={main4} alt="d"></img>
             <p class="image-comment">Comment 4</p>
           </div>
         </div>

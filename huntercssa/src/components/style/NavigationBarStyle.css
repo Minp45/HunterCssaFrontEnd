@@ -6,6 +6,15 @@
 
 li {
     list-style: none;
+
+    transition-property: scale;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+li:hover{
+    scale: 110%;
 }
 
 a {
