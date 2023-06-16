@@ -26,13 +26,16 @@
 }
 
 .grid-view img {
-    width: 80%; /* Adjust the width as desired */
+    width: 100%; /* Adjust the width as desired */
     height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
     object-fit: cover; /* Adjust the object-fit property as desired (e.g., contain, fill) */
     border-radius: 4px;
 }
 .grid-item {
     position: relative;
+  
+    border-radius: 4px;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.1);
 
     transition-property: transform;
     transition-duration: 0.3s;
