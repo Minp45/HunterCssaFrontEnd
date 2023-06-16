@@ -37,7 +37,7 @@ function NavigationBarView() {
                         <i className="fa-solid fa-xmark"></i>
                     </div>
                     <ul class=".sidenav__link center">
-                        <li><a href="/hero">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/event">Event</a></li>
                         <li><a href="/contact">Contect Us</a></li>

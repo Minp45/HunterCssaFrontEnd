@@ -5,7 +5,6 @@ const FooterView = () => {
     return (
         <>
             <footer>
-                <div class="container">
                     <div class="footer-content">
                         <ul class="footer-1">
                             <li class="footer-1-child-1">Hunter CSSA</li>
@@ -25,7 +24,6 @@ const FooterView = () => {
 
 
                     </div>
-                </div>
             </footer>
         </>
     )

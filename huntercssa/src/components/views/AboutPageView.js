@@ -9,8 +9,7 @@ const AboutPageView = () => {
   return (
     <>
       <div class="container">
-        {/* <h1> Our Team</h1> */}
-        <h2 class="section-title">主席团</h2>
+        <h1 class="section-title">Our Team</h1>
         <div class="grid-view">
           <div class="grid-item">
             <img src={main1} alt="a"></img>

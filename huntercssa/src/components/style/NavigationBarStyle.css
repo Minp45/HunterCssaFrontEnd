@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-li {
+.navbar li{
     list-style: none;
 
     transition-property: scale;
@@ -13,8 +13,8 @@ li {
     transition-delay: 0s;
 }
 
-li:hover{
-    scale: 110%;
+.navbar li:hover{
+    scale: 120%;
 }
 
 a {
@@ -46,6 +46,8 @@ header {
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 40px;
+
+
     
 }
 
@@ -78,7 +80,7 @@ header {
 
 .navbar .links {
     display: flex;
-    gap: 2.5rem;
+    gap: 2.7rem;
 }
 
 .navbar .toggle_btn {

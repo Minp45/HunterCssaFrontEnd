@@ -3,7 +3,7 @@
 .container {
   max-width: 133rem;
   margin: 0 auto;
-  padding: 0 2.5rem;
+
 }
 
 .bg-shape {
@@ -107,6 +107,7 @@ h4 {
   }
 
   .slogan-home li{
+    list-style: none;   /* Remove the list-style '.'  */
     padding-left: 2rem;
     @media (max-width: 1000px){
       padding: 0%;
